@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSG ERP - Streamline Your Business Operations</title>
+    <meta name="description" content="KSG ERP - Comprehensive enterprise resource planning solution for businesses of all sizes">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">
+                    <a href="index.html" aria-label="KSG ERP Home">
+                        <span class="logo-icon" aria-hidden="true"><i class="fas fa-cubes"></i></span>
+                        <span>KSG ERP</span>
+                    </a>
+                </h1>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMenu()">
+                <span class="menu-icon" aria-hidden="true">☰</span>
+            </button>
+            
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="demo.html" class="btn demo-btn">Request Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Transform Your Business with KSG ERP</h1>
+                    <p class="lead">An all-in-one enterprise solution to streamline operations, increase efficiency, and drive growth.</p>
+                    <div class="hero-buttons">
+                        <a href="demo.html" class="btn primary-btn">Schedule a Demo</a>
+                        <a href="services.html" class="btn secondary-btn">Explore Features</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/erp-dashboard.png" alt="KSG ERP Dashboard interface showing analytics and metrics" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" aria-labelledby="features-heading">
+            <div class="container">
+                <h2 id="features-heading" class="section-title">Why Choose KSG ERP?</h2>
+                <p class="section-subtitle">Powerful features designed for your business success</p>
+                
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Real-time Analytics</h3>
+                        <p>Make data-driven decisions with comprehensive dashboards and reports updated in real-time.</p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3>Seamless Integration</h3>
+                        <p>Connect with your existing tools and third-party applications effortlessly.</p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Enterprise Security</h3>
+                        <p>Military-grade encryption and role-based access control to protect your data.</p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Friendly</h3>
+                        <p>Access your business data anytime, anywhere with our responsive mobile interface.</p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Customizable</h3>
+                        <p>Tailor the system to your specific business needs with our flexible modules.</p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Our expert team is always available to help you maximize your ERP investment.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+        <div class="section-header">
+            <h2 id="testimonials-heading">What Our Clients Say</h2>
+            <p class="section-subtitle">Trusted by businesses across industries</p>
+        </div>
+
+    
+
+        <div class="testimonials-cta">
+            <a href="contact.html" class="btn primary-btn">Contact Sales</a>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>KSG ERP</h3>
+                    <p>Empowering businesses with comprehensive enterprise solutions since 2025.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <address class="contact-info">
+                        <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> New City Kishangarh Ajmer Rajasthan 305802</p>
+                        <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+917611926459">+91 7611926459</a></p>
+                        <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:Karansunariya92@gmail.com">Karansunariya92@gmail.com</a></p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 KSG ERP Solutions. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Defer non-critical JavaScript -->
+    <script src="js/main.js" defer></script>
+    
+    <!-- Load polyfills for older browsers -->
+    <script>
+        // Load polyfills if needed
+        if (!('IntersectionObserver' in window)) {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver';
+            document.head.appendChild(script);
+        }
+        
+        // Load CSS asynchronously
+        function loadCSS(href) {
+            var link = document.createElement('link');
+            link.href = href;
+            link.rel = 'stylesheet';
+            document.head.appendChild(link);
+        }
+        
+        // Load non-critical CSS
+        window.addEventListener('load', function() {
+            // Load any additional CSS here if needed
+        });
+    </script>
+</body>
+</html>

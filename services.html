@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Services - KSG ERP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header (Same as other pages) -->
+  <header class="main-header">
+    <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+    <div class="container">
+      <div class="logo-container">
+        <h1 class="logo">
+          <a href="index.html">
+            <span class="logo-icon"><i class="fas fa-cubes"></i></span>
+            <span>KSG ERP</span>
+          </a>
+        </h1>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="demo.html" class="btn demo-btn">Request Demo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-subtitle">Boost your business with our all-in-one ERP solutions</p>
+
+      <div class="services-grid">
+        <!-- Inventory -->
+        <div class="service-card" id="inventory">
+          <i class="fas fa-boxes service-icon"></i>
+          <h3>Inventory Management</h3>
+          <p>Track stock, manage warehouse operations, and automate inventory control with our efficient ERP tools.</p>
+        </div>
+
+        <!-- Accounting -->
+        <div class="service-card" id="accounting">
+          <i class="fas fa-calculator service-icon"></i>
+          <h3>Accounting</h3>
+          <p>From invoicing to GST reporting – everything is managed in one powerful accounting dashboard.</p>
+        </div>
+
+        <!-- HR Management -->
+        <div class="service-card" id="hr">
+          <i class="fas fa-user-tie service-icon"></i>
+          <h3>HR Management</h3>
+          <p>Manage employees, attendance, payroll, and leaves in a smooth and transparent system.</p>
+        </div>
+
+        <!-- CRM -->
+        <div class="service-card" id="crm">
+          <i class="fas fa-users service-icon"></i>
+          <h3>Customer Relationship</h3>
+          <p>Keep your customers happy and engaged with smart CRM tools, follow-ups, and reports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 KSG ERP. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
